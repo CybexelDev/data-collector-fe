@@ -6,7 +6,7 @@ import {
   CircleUserRound,
 
 } from "lucide-react";
-import AdminSidebar from "../../components/admin/adminsidebar";
+import AdminSidebar from "../../components/admin/AdminSidebar";
 import { getStoredUser, logout } from "../../api/authservice";
 import usePendingSubmissionsCount from "../../hooks/usePendingSubmissionCount";
 import { useNavigate } from "react-router-dom";

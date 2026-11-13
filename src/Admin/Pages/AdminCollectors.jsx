@@ -4,7 +4,7 @@ import {
   Activity, ArrowUpRight, CheckCircle2, ChevronLeft, ChevronRight, Clock3,
   Mail, MapPin, Menu, Phone, Search, Users, UserRound, X, XCircle,
 } from "lucide-react";
-import AdminSidebar from "../../components/admin/adminsidebar";
+import AdminSidebar from "../../components/admin/AdminSidebar";
 import { getStoredUser, logout } from "../../api/authservice";
 import { useEffect, } from "react";
 import usePendingSubmissionsCount from "../../hooks/usePendingSubmissionCount";

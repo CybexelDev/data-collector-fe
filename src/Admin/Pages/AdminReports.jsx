@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import AdminSidebar from "../../components/admin/adminsidebar";
+import AdminSidebar from "../../components/admin/AdminSidebar";
 import {
   Menu, Bell, CircleUserRound, Search, Download, Building2,
   CheckCircle2, Clock3, XCircle, MapPin, FileSpreadsheet,

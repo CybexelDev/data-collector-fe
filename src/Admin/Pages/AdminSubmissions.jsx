@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useCallback } from "react";
-import AdminSidebar from "../../components/admin/adminsidebar";
+import AdminSidebar from "../../components/admin/AdminSidebar";
 import { useNavigate } from "react-router-dom";
 import { getStoredUser, logout } from "../../api/authservice";
 import JSZip from "jszip";

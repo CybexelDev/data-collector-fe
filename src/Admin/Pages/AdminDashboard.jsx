@@ -15,7 +15,7 @@ import {
   AlertTriangle, ArrowDownRight, ArrowUpRight, Bell, Calendar, Camera, CheckCircle2, ChevronDown,
   Clock, Inbox, LogOut, MapPin, Menu, Minus, Search, UserPlus, Users, Wallet, X, XCircle,
 } from "lucide-react";
-import AdminSidebar from "../../components/admin/adminsidebar";
+import AdminSidebar from "../../components/admin/AdminSidebar";
 import { getStoredUser, logout } from "../../api/authservice";
 import usePendingSubmissionsCount from "../../hooks/usePendingSubmissionCount";
 const DAY = 24 * 60 * 60 * 1000;

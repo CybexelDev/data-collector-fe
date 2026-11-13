@@ -13,7 +13,7 @@ import {
   Search,
 } from "lucide-react";
 
-import AdminSidebar from "../../components/admin/adminsidebar";
+import AdminSidebar from "../../components/admin/AdminSidebar";
 import { getStoredUser, logout } from "../../api/authservice";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
